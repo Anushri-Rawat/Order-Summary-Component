@@ -33,8 +33,8 @@ Mobile image
 
 ### Links
 
-- Solution URL:(https://your-solution-url.com)
-- Live Site URL:(https://your-live-site-url.com)
+- Solution URL:(ttps://github.com/Anushri-Rawat/Order-Summary-Component)
+- Live Site URL:(https://anushri-rawat.github.io/Order-Summary-Component/)
 
 
 ## My process

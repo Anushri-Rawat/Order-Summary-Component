@@ -16,14 +16,12 @@ body{
    background-image: url(./images/pattern-background-desktop.svg); 
    display:flex;
    justify-content:center;
-   align-content:center;
+   align-items:center;
    background-color: hsl(225, 100%, 94%);
    background-repeat:no-repeat;
 }
 .card{
-    margin-top:60px;
-    max-width:320px;
-    height:500px;
+    max-width:400px;
     text-align:center;
     border-radius: 15px;
     overflow: hidden;
@@ -31,48 +29,45 @@ body{
     box-shadow:2px 2px 5px rgba(0,0,0,0.2);
 }
 .card-img img{
-    height:160px;
+    height:200px;
     width:100%;
 }
 .card-body{
-    padding:30px auto;
     flex-direction:column;
 }
 .card-title{
-    margin-top:25px;
+    margin-top:20px;
     margin-bottom:10px;
-    font-weight:900;
+    font-size: 20px;
+    font-weight:bold;
     color:hsl(223, 47%, 23%);
 }
 .card-description{
     color:hsl(224, 23%, 55%);
     font-weight:500;
     margin-bottom:20px;
+    padding:0 30px;
 }
 .card-play{
     display:flex;
-    height:60px;
+    font-size:14px;
+    border-radius: 15px;
     justify-content:space-between;
     align-content:center;
-    margin:-5px 30px 10px;
-padding-right:5px;
-border-radius:12px;
+    margin:0 30px;
+padding:14px;
 background:hsl(225, 100%, 98%);
 }
 .dis{
     display:flex;
-    justify-content:space-around;
-    padding-top:5px;
-    font-size:15px;
-    padding-right: 50px;
+    justify-content:center;
     color:hsl(223, 47%, 23%);
-    margin-top:-5px;
 }
-.dis .icon{
-    padding:10px;
+.dis .one{
+    margin-top:5px;
+    margin-left: 25px;
 }
 .dis h5{
-    margin-top:12px;
     font-weight:900;
     font-size:14.5px;
 }
@@ -82,11 +77,10 @@ background:hsl(225, 100%, 98%);
 }
 .change{
     color:hsl(245, 75%, 52%);
-    padding-top:20px;
-    padding-right:15px;
     text-decoration:underline;
-    font-size:12px;
-    font-weight:900;
+    font-size:14px;
+    margin-top:12px;
+    font-weight:700;
 }
 .change p:hover{
     text-decoration:none;
@@ -99,7 +93,7 @@ background:hsl(225, 100%, 98%);
     color:white;
     margin:20px 20px auto;
 font-size:14px;
-padding:10px;
+padding:15px;
 /*box-shadow:10px 10px 20px rgb(158, 158, 248);*/
 box-shadow:10px 10px 20px hsla(245,75%,52%,0.15),15px 15px 30px hsla(245,75%,52%,0.15);
 font-family:inherit;
@@ -110,7 +104,7 @@ font-family:inherit;
     cursor: pointer;
 }
 .cancel{
-    margin-top:20px;
+    margin:15px 0 20px;
     text-decoration:none;
     color:hsl(224, 23%, 55%);
     cursor: pointer;
@@ -121,12 +115,19 @@ font-family:inherit;
     color:hsl(223, 47%, 23%);
 }
 
-@media only screen and (max-width:375px){
+@media(max-width:400px){
     .container{
         background-image: url(./images/pattern-background-mobile.svg);
     }
-    .card-play .dis{
-      padding-right:10px;
+    .card{
+        width:320px;
+    }
+    .dis .one{
+      margin-left:10px;
+    }
+    .card-img img{
+        height:150px;
+        width:100%;
     }
 }
 

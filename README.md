@@ -26,14 +26,14 @@ Users should be able to:
 
 ### Screenshot
 Desktop image
-(./images/order-summary-screenshot.png)
+![](images/order-summary-screenshot.png)
 
 Mobile image
-(./images/mobile-version.png)
+![](images/mobile-version.png)
 
 ### Links
 
-- Solution URL:(ttps://github.com/Anushri-Rawat/Order-Summary-Component)
+- Solution URL:(https://github.com/Anushri-Rawat/Order-Summary-Component)
 - Live Site URL:(https://anushri-rawat.github.io/Order-Summary-Component/)
 
 

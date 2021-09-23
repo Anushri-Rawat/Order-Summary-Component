@@ -28,6 +28,9 @@ Users should be able to:
 Desktop image
 ![](images/order-summary-screenshot.png)
 
+
+
+
 Mobile image
 ![](images/mobile-version.png)
 
@@ -55,7 +58,7 @@ This is the first challenge that i did after learning HTML,CSS and flexbox.I lea
 
 ## Author
 
-- Frontend Mentor - [@Anushri-Rwat](https://www.frontendmentor.io/profile/Anushri-Rawat)
+- Frontend Mentor - [@Anushri-Rawat](https://www.frontendmentor.io/profile/Anushri-Rawat)
 
 
 ## Acknowledgments
